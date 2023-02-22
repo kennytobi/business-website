@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About Veetek</title>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="second.html"><img src="pix/logo4.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="second.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="service.html">SERVICES</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!---------ABOUT US CONTENT-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best in nigeria</h1>
+                <p>Veetek Maritime is a company that specializes in international  management services.
+                     Our primary service is to provide freighting support service for importers and exporters 
+                      in the international trade globally
+                      We offer professional services that covers export and import, logistics 
+                      and transportation, trade documentations, freights forwarding a
+                      nd customs brokerage (import clearance).</p>
+                      <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="pix/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-------Footer---->
+
+    <section class="footer">
+        <h4>Our Mission</h4>
+        <p>To be a trusted clearing agent and freight forwarder by rendering services that excites our clients and customers every time.
+            <br>To give constant and immediate attention to the freight service need of our client, <br>providing them quality service that exceed their expectation.
+        </p>
+
+             <div class="icons">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+             </div>
+             <p>Made with <i class="fa fa-heart-o "></i> by Kenny Tech</p>
+    </section>
+
+
+    <!------Javascript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

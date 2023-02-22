@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Veetek Services</title>
+</head>
+<body>
+    <section class="fourthheader">
+        <nav>
+            <a href="second.html"><img src="pix/logo4.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="second.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="service.html">SERVICES</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+    <!-------services---->
+
+    <section class="course" >
+        <h1> Services We Offer</h1>
+        <p>We at veetek martime service offer variety of services such as:</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3> Freight Forwarding</h3>
+                <p>At Veetek, we advice and assist our clients and customers on how best to move goods efficiently from one destination to the other globally. Our extensive knowledge of the export procedure, documentation requirement, regulations, transport cost and banking practices will ease the exporting bottlenecks for our clients. We are customs licensed freight forwarder and this is our expertise.</p>
+            </div>
+            <div class="course-col">
+                <h3> Import Clearance</h3>
+                <p>With our knowledge of the trade regulation, not only from the corresponding customs authority, but also from other regulating agencies involved in imports, we perform transactions at the ports of Nigeria on behalf of our client and customers.
+                    These transactions includes: estimating the landed cost of shipments entering the country ports, clearing the entry of goods into, and the exit of goods from customs territories, payment of taxes and duties, drawback or refunds of any kind.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3> Warehousing Management</h3>
+                <p>Veetek will arrange the storage of client’s goods before export clearance or after import shipment clearance from the port. We arrange different type warehousing for shipment to avoid theft/pilfering, perishing (for perishable goods) etc.
+
+                    Various holding warehouse such as for cold storage, general cargoes, and dangerous goods can be arranged. Staffed by a dedicated core of friendly and efficient professionals who have many years’ experience in all aspects of logistics and freight forwarding.</p>
+            </div>
+        </div>
+
+     </section>
+
+     <!--------facilities----->
+
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our wide range of facilities includes:</p>
+
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="pix/document.jpeg">
+                <h3> Trade Documentations</h3>
+                <p>International trade worldwide is mainly about documentation. This is because much reliance is placed on documents 
+                    relating to price, quantity, quality/specification, packaging, shipment/movement of goods and services
+                    , banks, origin etc., all in a bid to confirm adhereence to stipulated procedures</p>
+            </div>
+            <div class="facilities-col">
+                <img src="pix/warehouse.jpeg">
+                <h3> Supervision Of Shipment Loading</h3>
+                <p>Before loading into a vessel for final shipment, other inspections by regulatory agencies such as Customs, 
+                    NAQS, SON, NDLEA etc., will be acrried out at the seaport, airport terminals or other point of departure.
+                    The exporter is expected to privide the neccessary logistics to facilitate such inspection. We shall be there 
+                    on behalf of theexporter to ofeer support services, to ensure a hitch free inspection</p>
+            </div>
+            <div class="facilities-col">
+                <img src="pix/transport.jpeg">
+                <h3> Logistics and Transportation</h3>
+                <p>Our priorities as a business includes the efficient delivery of commodities to the 
+                    end user vai a robust logistics and value chain management.
+                    Our logistics management activities typically include inbound and outbound transport, 
+                    fleet management, warehousing, material handling, order fulfillment, supply/demand planning, 
+                    production planning, and scheduling, packaging and assembling. We deliver shipment anywhere 
+                    in the world through air, sea and road.</p>
+            </div>
+        </div>
+     </section>
+    
+
+
+    <!-------Footer---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p></p>
+
+             <div class="icons">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+             </div>
+             <p>Made with <i class="fa fa-heart-o "></i> by Kenny Tech</p>
+    </section>
+
+
+    <!------Javascript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
